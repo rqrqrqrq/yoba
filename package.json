@@ -1,0 +1,8 @@
+{
+  "name": "yoba",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rqrqrqrq/yoba.git",
+  "author": "rqrqrqrq <rtdfh@gmail.com>",
+  "license": "MIT"
+}
