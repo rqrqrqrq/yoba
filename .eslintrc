@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "plugin:flowtype/recommended",
+    "prettier",
+    "prettier/flowtype",
+    "prettier/react"
+  ],
+  "plugins": [
+    "flowtype",
+  ],
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "flowtype/no-types-missing-file-annotation": 0
+  }
+}
