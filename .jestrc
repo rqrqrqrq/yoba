@@ -1,0 +1,8 @@
+{
+  "collectCoverageFrom": [
+    "src/**/*.js"
+  ],
+  "transform": {
+    ".*": "<rootDir>/node_modules/babel-jest"
+  }
+}

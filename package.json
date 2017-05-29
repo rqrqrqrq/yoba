@@ -10,37 +10,6 @@
     "test": "jest",
     "eslint-check": "eslint --print-config .eslintrc | eslint-config-prettier-check"
   },
-  "babel": {
-    "presets": [
-      "flow",
-      [
-        "env",
-        {
-          "targets": {
-            "browsers": [
-              "last 2 versions"
-            ]
-          }
-        }
-      ]
-    ]
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint",
-      "prettier --single-quote --trailing-comma all --write",
-      "git add",
-      "jest --bail --findRelatedTests"
-    ]
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.js"
-    ],
-    "transform": {
-      ".*": "<rootDir>/node_modules/babel-jest"
-    }
-  },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "babel-jest": "^20.0.3",
