@@ -6,11 +6,12 @@
   "author": "rqrqrqrq <rtdfh@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "precommit": "lint-staged",
+    "precommit": "lint-staged && flow check",
     "test": "jest"
   },
   "babel": {
     "presets": [
+      "flow",
       [
         "env",
         {
@@ -41,6 +42,8 @@
   "devDependencies": {
     "babel-jest": "^20.0.3",
     "babel-preset-env": "^1.5.1",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.47.0",
     "husky": "^0.13.3",
     "jest": "^20.0.4",
     "lint-staged": "^3.5.0",

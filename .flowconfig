@@ -1,0 +1,12 @@
+[ignore]
+<PROJECT_ROOT>/node_modules/.*
+<PROJECT_ROOT>/coverage/.*
+<PROJECT_ROOT>/.git/.*
+<PROJECT_ROOT>/package.json
+
+[include]
+
+[libs]
+
+[options]
+all=true
