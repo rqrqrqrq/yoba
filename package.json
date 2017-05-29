@@ -6,7 +6,7 @@
   "author": "rqrqrqrq <rtdfh@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "precommit": "lint-staged && flow check",
+    "precommit": "flow check && lint-staged",
     "test": "jest"
   },
   "babel": {
