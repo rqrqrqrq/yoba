@@ -10,7 +10,8 @@
     "test": "jest",
     "eslint-check": "eslint --print-config .eslintrc | eslint-config-prettier-check",
     "lint": "eslint src",
-    "prettify": "prettier src/**/*.js --write --single-quote --trailing-comma all"
+    "prettify": "prettier src/**/*.js --write --single-quote --trailing-comma all",
+    "flow": "flow check"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",

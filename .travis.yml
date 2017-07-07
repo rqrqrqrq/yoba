@@ -1,0 +1,12 @@
+language: node_js
+
+node_js:
+  - "node"
+
+cache: yarn
+
+script:
+  - node --version
+  - yarn --version
+  - yarn run flow
+  - yarn run eslint-check && yarn run lint && yarn run test
