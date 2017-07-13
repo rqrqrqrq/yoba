@@ -6,6 +6,6 @@ test('my testcase', () => {
 
 test('another testcase', () => {
   expect(
-    mapThroughObject((v: string): string => `1${v}`, { a: 1, b: 2, c: 3 }),
+    mapThroughObject((v: number): string => `1${v}`, { a: 1, b: 2, c: 3 }),
   ).toEqual(['11', '12', '13']);
 });
